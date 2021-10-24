@@ -2,6 +2,8 @@ import './App.css';
 import Login from "./components/Login";
 import Home from "./components/Home";
 import HomeSearch from "./components/HomeSearch";
+import HomeDisplay from "./components/HomeDisplay";
+import HomePageThree from "./components/HomePageThree";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
           <Route exact path="/">
             <Login />
             <HomeSearch />
+            <HomeDisplay />
+            <HomePageThree />
           </Route>
           <Route path="/home">
             <Home />
