@@ -60,17 +60,18 @@ const Join = styled.a`
   position: relative;
   font-size: 16px;
   font-weight: 600;
-  padding: 14px 20px;
+  padding: 10px 20px;
   right: 10px;
   text-decoration: none;
   border-radius: 5px;
   color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
   @media (max-width: 768px) {
     position: relative;
     color: rgba(0,0,0,0.6);
     font-weight: 700;
     right: 10px;
-    top: -5px;
+    top: -4px;
   }
   &:hover {
     background-color: rgba(0, 0, 0, 0.08);
@@ -89,10 +90,11 @@ const SignIn = styled.a`
   line-height: 40px;
   padding: 10px 24px;
   text-align: center;
+  cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
   @media (max-width: 768px) {
     position: relative;
-    padding: 6px 15px;
+    padding: 6px 9px;
     right: 15px;
     top: -5px;
   }
