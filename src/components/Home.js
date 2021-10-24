@@ -2,8 +2,12 @@ import styled from "styled-components";
 
 const Home = (props) => {
     return (
-        <h2>Home JS</h2>
+        <Component>
+            <h2>Hello</h2>
+        </Component>
     )
 };
+
+const Component = styled.div``;
 
 export default Home;
