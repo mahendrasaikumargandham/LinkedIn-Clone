@@ -6,16 +6,16 @@ const Leftside = (props) => {
       <ArtCard>
         <UserInfo>
           <CardBackground />
-          <a>
+          <a href="/home">
             <Photo />
             <Link>Welcome, there!</Link>
           </a>
-          <a>
+          <a href="/home">
             <AddPhotoText>Add a photo</AddPhotoText>
           </a>
         </UserInfo>
         <Widget>
-          <a>
+          <a href="/home">
             <div>
               <span>Connections</span>
               <span>Grow your network</span>
@@ -32,19 +32,19 @@ const Leftside = (props) => {
       </ArtCard>
 
       <CommunityCard>
-        <a>
+        <a href="/home">
           <span>Groups</span>
         </a>
-        <a>
+        <a href="/home">
           <span>
             Events
             <img src="/images/plus-icon.svg" alt="" />
           </span>
         </a>
-        <a>
+        <a href="/home">
           <span>Follow Hashtags</span>
         </a>
-        <a>
+        <a href="/home">
           <span>Discover more</span>
         </a>
       </CommunityCard>
