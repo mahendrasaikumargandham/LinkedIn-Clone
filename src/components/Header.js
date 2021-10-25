@@ -276,7 +276,7 @@ const ImgProfile = styled.img`
 
 const ImgDrop = styled.img`
     position: relative;
-    top: -10px;
+
 `;
 
 const Work = styled(User)`
