@@ -6,12 +6,12 @@ const HomePageThree = (props) => {
             <PageLeft>
                 <img src="/images/page4.svg" alt="" />
                 <h1>Connect with people who can help</h1>
-                <p>Find people you know</p>
+                <Button>Find people you know</Button>
             </PageLeft>
             <PageRight>
                 <img src="/images/page5.svg" alt="" />
                 <h1>Learn the skills you need to succeed</h1>
-                <p>Choose a topic to learn about</p>
+                <Button>Choose a topic to learn about</Button>
             </PageRight>
             <PageBottom>
                 <img src="/images/page6.jpeg" alt="" />
