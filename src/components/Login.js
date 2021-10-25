@@ -52,6 +52,7 @@ const Nav = styled.nav`
       padding: 0 5px;
       margin: 15px;
       width: 30%;
+      top: 5px;
     }
   }
 `;
@@ -71,7 +72,7 @@ const Join = styled.a`
     color: rgba(0,0,0,0.6);
     font-weight: 700;
     right: 10px;
-    top: -4px;
+    top: 0px;
   }
   &:hover {
     background-color: rgba(0, 0, 0, 0.08);
@@ -96,7 +97,7 @@ const SignIn = styled.a`
     position: relative;
     padding: 6px 9px;
     right: 15px;
-    top: -5px;
+    top: 0px;
   }
   &:hover {
     background-color: rgba(112, 181, 249, 0.15);

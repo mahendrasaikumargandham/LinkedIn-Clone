@@ -44,6 +44,7 @@ const DisplayLeft = styled.div`
     @media (max-width: 768px) {
         margin-top: 15%;
         width: 95%;
+        margin-left: 10px;
         h1 {
             font-size: 30px;
         }

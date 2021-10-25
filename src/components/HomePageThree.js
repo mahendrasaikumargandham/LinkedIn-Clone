@@ -5,13 +5,13 @@ const HomePageThree = (props) => {
         <Component>
             <PageLeft>
                 <img src="/images/page4.svg" alt="" />
-                <h1>Connect with people who can help</h1>
-                <Button>Find people you know</Button>
+                <Height>Connect with people who can help</Height>
+                <ButtonTop>Find people you know</ButtonTop>
             </PageLeft>
             <PageRight>
                 <img src="/images/page5.svg" alt="" />
-                <h1>Learn the skills you need to succeed</h1>
-                <Button>Choose a topic to learn about</Button>
+                <Height>Learn the skills you need to succeed</Height>
+                <ButtonBottom>Choose a topic to learn about</ButtonBottom>
             </PageRight>
             <PageBottom>
                 <img src="/images/page6.jpeg" alt="" />
@@ -40,13 +40,6 @@ const PageLeft = styled.div`
       height: initial;
       margin-bottom: 0;
       visibility: visible;
-      h1 {
-        position: relative;
-      margin-left: 15%;
-      width: 100%;
-      font-size: 50px;
-      font-weight: 300;
-    }
     }
     
   }
@@ -77,23 +70,52 @@ const PageRight = styled.div`
   }
 `;
 
-const Button = styled.button`
-
+const Height = styled.div`
+    visibility: hidden;
+    @media(max-width: 768px) {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 5%;
+        visibility: visible;
+    }
+`;
+const ButtonTop = styled.button`
+    visibility: hidden;
+    @media(max-width: 768px) {
+        border: 2px solid rgba(0,0,0,0.6);
+        margin-left: 10%;
+        padding: 15px 20px;
+        border-radius: 999px;
+        margin-top: 5%;
+        font-size: 20px;
+        color: rgba(0,0,0,0.6);
+        font-weight: 700;
+        cursor: pointer;
+        visibility: visible;
+    }
+    
 `;
 
+const ButtonBottom = styled.button`
+    visibility: hidden;
+    @media(max-width: 768px) {
+        border: 2px solid rgba(0,0,0,0.6);
+        margin-left: 5%;
+        padding: 15px 20px;
+        border-radius: 999px;
+        margin-top: 5%;
+        font-size: 20px;
+        color: rgba(0,0,0,0.6);
+        font-weight: 700;
+        cursor: pointer;
+        width: 90%;
+        visibility: visible;
+    }
+`;
 const PageBottom = styled.div`
-    img {
-        width: 400px;
-        height: 400px;
-        position: relative;
-        visibility: hidden;
-    }
-    @media (max-width: 768px) {
-        img {
-            position: relative;
-            right: -50px;
-            visibility: visible;
-    }
+    visibility: hidden;
+    @media(max-width: 768px) {
+        visibility: visible;
     }
 `;
 export default HomePageThree;
