@@ -25,6 +25,7 @@ const Component = styled.div`
     margin-top: 10%;
     justify-content: space-between;
 `;
+
 const PageLeft = styled.div`
     img {
     width: 300px;
@@ -40,8 +41,7 @@ const PageLeft = styled.div`
       height: initial;
       margin-bottom: 0;
       visibility: visible;
-    }
-    
+    }   
   }
   
 `;
@@ -59,15 +59,6 @@ const PageRight = styled.div`
       visibility: visible;
     }
   }
-  h1 {
-      position: relative;
-      top: -620px;
-      right: -700px;
-      margin-right: 10%;
-      width: 35%;
-      font-size: 50px;
-      font-weight: 300;
-  }
 `;
 
 const Height = styled.div`
@@ -79,6 +70,7 @@ const Height = styled.div`
         visibility: visible;
     }
 `;
+
 const ButtonTop = styled.button`
     visibility: hidden;
     @media(max-width: 768px) {
@@ -93,7 +85,6 @@ const ButtonTop = styled.button`
         cursor: pointer;
         visibility: visible;
     }
-    
 `;
 
 const ButtonBottom = styled.button`
@@ -112,10 +103,12 @@ const ButtonBottom = styled.button`
         visibility: visible;
     }
 `;
+
 const PageBottom = styled.div`
     visibility: hidden;
     @media(max-width: 768px) {
         visibility: visible;
     }
 `;
+
 export default HomePageThree;

@@ -5,6 +5,7 @@ import HomeSearch from "./components/HomeSearch";
 import HomeDisplay from "./components/HomeDisplay";
 import HomePageThree from "./components/HomePageThree";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from './components/Header';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
             <HomePageThree />
           </Route>
           <Route path="/home">
+            <Header />
             <Home />
           </Route>
         </Switch>

@@ -10,11 +10,9 @@ const HomeDisplay = (props) => {
                 <h1>Let the right people know you’re open to work</h1>
                 <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities</p>
              </DisplayLeft>
-            
         </Component>
     );
 }
-
 
 const Component = styled.div`
     margin-top: 10%;
@@ -54,6 +52,7 @@ const DisplayLeft = styled.div`
         visibility: visible;
     }
 `;
+
 const DisplayRight = styled.div`
     img {
         top: -300px;
@@ -74,6 +73,6 @@ const DisplayRight = styled.div`
         visibility: visible;
         }
     }
-
 `;
+
 export default HomeDisplay;

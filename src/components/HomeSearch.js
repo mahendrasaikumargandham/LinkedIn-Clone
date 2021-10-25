@@ -36,8 +36,8 @@ const Container = styled.div`
     margin-left: 15px;
     width: 90%;
 `;
-const Heading = styled.div`
 
+const Heading = styled.div`
     h1 {
         font-size: 50px;
         font-weight: 400;
@@ -71,11 +71,11 @@ const Heading = styled.div`
             padding: 14px 20px; 
             margin: 5px;
         }
-
         &:hover {
             text-decoration: underline;
             background: rgba(0,0,0,0.3);
         }
     }
 `;
+
 export default HomeSearch;
