@@ -137,7 +137,7 @@ const Search = styled.div`
       border: 2px solid rgba(0,0,0,0.3);
       border-radius: 999px;
       input {
-          width: 100%;
+        width: 245px;
       }
   }
 `;
@@ -213,6 +213,10 @@ const NavList = styled.li`
       align-items: center;
     }
     @media (max-width: 768px) {
+        img {
+            position: relative;
+            top: 3px;
+        }
         span {
             visibility: hidden;
         }
@@ -265,7 +269,10 @@ const User = styled(NavList)`
   }
 `;
 
-const ImgProfile = styled.img``;
+const ImgProfile = styled.img`
+    position: relative;
+    top: 5px;
+`;
 
 const ImgDrop = styled.img`
     position: relative;
